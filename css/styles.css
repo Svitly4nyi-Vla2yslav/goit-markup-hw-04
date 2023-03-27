@@ -136,6 +136,14 @@ header {
   padding-bottom: 188px;
   text-align: center;
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero {
@@ -202,7 +210,6 @@ header {
   color: var(--color-text-slate);
   margin-top: 8px;
   width: 264px;
-
 }
 .caption-section {
   font-weight: 700;
@@ -296,7 +303,7 @@ header {
 .footer-position {
 }
 /* //! ============PORTFOLIO =======?// */
-.section-portfolio{
+.section-portfolio {
   padding-bottom: 120px;
   padding-top: 96px;
 }
@@ -354,20 +361,16 @@ header {
 }
 .border-about {
   box-sizing: border-box;
- 
 }
-
 
 .about {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  
-   
 }
 .card-text {
   padding: 32px 16px;
   border-right: 1px solid #e7e9fc;
-  border-bottom: 1px solid #e7e9fc ;
+  border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
 }
