@@ -186,6 +186,17 @@ header {
   padding-bottom: 120px;
 }
 
+.container-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4fd;
+  border-radius: 4px;
+  height: 112px;
+  width: 264px;
+  margin-bottom: 8px;
+}
+
 .features-list {
   display: flex;
   gap: 24px;
@@ -263,10 +274,72 @@ header {
   margin-top: 8px;
 }
 
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.networks-item {
+ }
+.networks-link {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color-button-iris);
+
+}
+.networks-link:hover,
+.networks-link:focus{
+  background-color:var(--color-button-ocean) ;
+}
+
+.customers-section{
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.icon-networks {
+}
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.customers-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+.customers-link:is(:hover, :focus){
+   fill: var(--color-button-ocean);
+   border:1px solid var(--color-button-ocean);
+
+}
+
+
+.customers-link {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+  height: 88px;
+  width: 168px;
+  fill: #8E8F99;
+}
+
+
 /* .........Footer....... */
 .footer {
   background-color: var(--primary-text-color-blue);
-  display: flex;
+  display:flex;
   padding: 100px 0;
 }
 .logo-footer {
@@ -300,8 +373,31 @@ header {
   color: #f4f4fd;
   width: 264px;
 }
-.footer-position {
+.text-networks{
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
 }
+.footer-networks {
+  display: flex;
+  flex-wrap: wrap;
+  width:208px ;
+  height: 80px;
+  margin-left: 120px;
+}
+.footer-position{
+  display: flex;
+
+}
+.networks-item{
+
+}
+.link-footer:is(:hover, :focus){
+  background-color:#31D0AA ;
+}
+
 /* //! ============PORTFOLIO =======?// */
 .section-portfolio {
   padding-bottom: 120px;
