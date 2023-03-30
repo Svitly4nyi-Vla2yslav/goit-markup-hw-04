@@ -388,8 +388,6 @@ header {
   flex-wrap: wrap;
   width: 208px;
   height: 80px;
-  padding-left: auto;
-  padding-right: auto;
 }
 div .social-item {
   gap: 16px;
